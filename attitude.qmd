@@ -1,0 +1,20 @@
+---
+title: "Immigration Attitudes"
+format: html
+editor: visual
+---
+
+What will be the attitude toward immigration, measured on the 3 to 15 scale, of a Parisian after they hear two Arabic speakers walking down the street? What about the average Parisian? What about the 90th percentile of Parisians?
+
+```{r}
+#| echo: false
+#| message: false
+library(tidyverse)
+library(primer.data)
+```
+
+```{r}
+
+```
+
+
