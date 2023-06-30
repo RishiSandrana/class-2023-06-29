@@ -6,15 +6,24 @@ editor: visual
 
 What will be the attitude toward immigration, measured on the 3 to 15 scale, of a Parisian after they hear two Arabic speakers walking down the street? What about the average Parisian? What about the 90th percentile of Parisians?
 
+Model: Predictive
+Units: Parisians
+Outcome: Attitude toward immigration on scale from 3-15
+Covariates: Heard Arabic Speakers, Age, Gender, Political Affiliation
+
+Validity: Nationality, Language
+Stability: Numerous incidents, terror attacks between 2014 and 2023 (especially in France) that could impact a Parisian's opinion
+Representativeness:
+Unconfoundedness: 
+
 ```{r}
 #| echo: false
 #| message: false
 library(tidyverse)
 library(primer.data)
+library(rstanarm)
 ```
 
 ```{r}
-
+trains
 ```
-
-
